@@ -1,5 +1,5 @@
 // Change the url to the domain of your app
-// exports.url = 'http://localhost:3090';
+// exports.url = 'http://localhost:8080/';
 exports.url = 'https://playthelobby.herokuapp.com/';
 
 exports.senderEmail = "donotreply@playthelobby.com";
@@ -15,4 +15,4 @@ exports.templateId = null;
 
 // receive an email when a new signup is confirmed
 exports.sendNotification = true;
-exports.notificationEmail = "Adrian@AdrianGrant.org";
+exports.notificationEmail = "adrian@adriangrant.org";
