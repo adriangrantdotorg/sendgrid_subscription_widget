@@ -111,8 +111,8 @@ exports.addUser = function(req, res, next) {
 			console.log("Sending notification");
 
 			var request = sg.emptyRequest({
-				method: 'POST',
-				path: '/v3/mail/send',
+				method: 'PUT',
+				path: 'https://api.sendgrid.com/v3/marketing/contacts',
 				body: prepareNotificationEmail(req.body[0])
 			});
 
