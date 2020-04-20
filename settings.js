@@ -1,9 +1,9 @@
 // Change the url to the domain of your app
-// exports.url = 'http://localhost:8080/';
+// exports.url = 'http://localhost:3090';
 exports.url = 'https://playthelobby.herokuapp.com/';
 
 exports.senderEmail = "donotreply@playthelobby.com";
-exports.senderName = "Naga";
+exports.senderName = "The Lobby";
 
 // set 'exports.listId = null' to add contact to all contacts, but no specific list
 // or a string with the listId to add to a specific list

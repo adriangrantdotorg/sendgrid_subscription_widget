@@ -98,6 +98,7 @@ exports.sendConfirmation = (req, res, next) => {
 			res.sendFile(path.join(__dirname, '../static/check-inbox.html'));
 		} else {
 			res.sendFile(path.join(__dirname, '../static/error.html'));
+			console.log(response.statusCode);
 		}
 	});
 }
