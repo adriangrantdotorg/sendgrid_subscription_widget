@@ -53,7 +53,7 @@ function prepareConfirmationEmail(reqBody) {
 
 function prepareNotificationEmail(reqBody) {
 	const subject = "New email signup";
-	const mailText = "A new person just confirmed they would look to receive your emails via your email subscription widget.<br/><b>Name: </b>" + "<br/><b>Email: </b>" + reqBody.email;
+	const mailText = "A new person just confirmed they would look to receive your emails via your email subscription widget." + "<br/><b>Email: </b>" + reqBody.email;
 
 	var emailBody = {
 	  personalizations: [

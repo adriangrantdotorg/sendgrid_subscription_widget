@@ -2,7 +2,7 @@
 // exports.url = 'http://localhost:3090';
 exports.url = 'https://playthelobby.herokuapp.com/';
 
-exports.senderEmail = "donotreply@playthelobby.com";
+exports.senderEmail = "game@playthelobby.com";
 exports.senderName = "The Lobby";
 
 // set 'exports.listId = null' to add contact to all contacts, but no specific list
@@ -14,5 +14,5 @@ exports.listId = null;
 exports.templateId = null;
 
 // receive an email when a new signup is confirmed
-exports.sendNotification = false;
-exports.notificationEmail = "no@adriangrant.org";
+exports.sendNotification = true;
+exports.notificationEmail = "adrian@adriangrant.org";
